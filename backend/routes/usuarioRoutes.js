@@ -1,8 +1,9 @@
 import express from "express";
+
 import {
   prueba,
   registrar,
-  confirmar,
+  confirmar
 } from "../controllers/usuarioController.js";
  
 const router = express.Router();

@@ -19,10 +19,10 @@ const emailRegistro = async (datos) => {
     subject: "Comprueba tu cuenta en AEC",
     text: "Comprueba tu cuenta en AEC",
     html: `<p>Hola: ${nombre}, comprueba tu cuenta en AEC.</p>
-    <p> Tu cuenta ya esta lista, solo debes comprobarla en el siguiente enlace:
-    <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a></p>
-    <p>Si tu no creaste esta cuenta, puedes ignorar este mensaje</p>
-`,
+        <p> Tu cuenta ya esta lista, solo debes comprobarla en el siguiente enlace:
+        <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a></p>
+        <p>Si tu no creaste esta cuenta, puedes ignorar este mensaje</p>
+    `,
   });
   //console.log("Mensaje enviado: %s", info.messageId);
 };
