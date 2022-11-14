@@ -1,4 +1,5 @@
 import Producto from "../models/Producto.js";
+import fs from "fs-extra";
 import { uploadImage, deleteImage } from "../helper/cloudinary.js";
 
 const prueba = (req, res) => {
