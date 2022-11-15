@@ -19,6 +19,7 @@ const ventaShema = mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    
     estado: {
       type: String,
       default: "vigente",
