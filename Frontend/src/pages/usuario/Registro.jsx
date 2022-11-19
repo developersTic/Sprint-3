@@ -93,7 +93,7 @@ const Registro = () => {
                                 type="text" 
                                 id="nombre" 
                                 className='block placeholder-slate-400 p-2 w-full bg-slate-100' 
-                                placeholder='ej:faiver felipe vargas lozano' 
+                                placeholder='ej: Juan David Ariza Torres' 
                                 value={nombre}
                                 onChange={ e => setNombre(e.target.value) }
                             />
@@ -132,12 +132,12 @@ const Registro = () => {
                             />
                         </div>
                         <div className='mb-5'>
-                            <label htmlFor="web" className='font-medium'>Direccion</label>
+                            <label htmlFor="web" className='font-medium'>Web</label>
                             <input 
                                 type="text" 
                                 id="web" 
                                 className='block placeholder-slate-400 p-2 w-full bg-slate-100' 
-                                placeholder='https://github.com/faiver99' 
+                                placeholder='https://github.com/IvanCastroRuiz' 
                                 value={web}
                                 onChange={ e => setWeb(e.target.value) }
                             />
